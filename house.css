@@ -147,7 +147,8 @@ body{
 }
 
 #room3{
-    background: rgb(34, 176, 77);
+    background-image: url("resources/images/attic_room.webp");
+    background-size: cover;
 
 }
 
