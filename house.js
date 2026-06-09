@@ -1,8 +1,10 @@
 
 
+
 document.getElementById("start_button").addEventListener("click", () => {
   document.getElementById("starter").hidden = true;
   document.getElementById("room1").hidden = false;
+  document.getElementById("title-theme").pause()
   // room 1 
 });
 
