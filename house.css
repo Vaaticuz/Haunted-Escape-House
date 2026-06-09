@@ -67,6 +67,7 @@ body{
     width: 100px; 
     text-align: center;
     border: 0.5rem solid rgba(87, 69, 69, 0.926);
+    text-shadow: #2222dd;
 
 }
 

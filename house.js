@@ -1,6 +1,8 @@
 
 let audioPlayer = document.getElementById("audioSrc")
 
+$("#counter").hide();
+$("#counter2").hide();
 
 // plays title screen music
 audioPlayer.play()
@@ -9,6 +11,9 @@ document.getElementById("start_button").addEventListener("click", () => {
   document.getElementById("starter").hidden = true;
   document.getElementById("room1").hidden = false;
   audioPlayer.pause()
+  $("#counter").show();
+  $("#counter2").show();
+  $("#instructions").hide();
   // room 1 
 });
 
@@ -98,6 +103,7 @@ $("#item2").click(function(){
 
 function red(){
     $("#gameover").show();
+
     
 };
 
