@@ -36,6 +36,7 @@ body{
     width: 30px; height: 30px;
     background-color: black;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .hidden {
     display: none;
@@ -52,9 +53,11 @@ body{
 #instructions{
     background: beige;
     width: fit-content;
-    position: relative;
-    right:50px;
-    top: 40px;
+    text-align: center;
+    right:10%;
+    top: 40%;
+    padding: auto;
+     border: 0.5rem solid rgba(87, 69, 69, 0.926);
 }
 
 #start_button{
@@ -66,8 +69,7 @@ body{
     background-color: rgb(122, 145, 160);
     width: 100px; 
     text-align: center;
-    border: 0.5rem solid rgba(87, 69, 69, 0.926);
-    text-shadow: #2222dd;
+    border: 0.5rem solid rgba(69, 73, 87, 0.926);
 
 }
 
@@ -78,8 +80,8 @@ body{
 
 #room1{
      background-image: url("resources/images/doorway.webp");
-     background-size:  cover;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -126,6 +128,7 @@ body{
 #room2{
     background-color: teal;
     background-position: center;
+    background-image: url("resources/images/attic_room.webp");
     
 
 }
@@ -136,7 +139,7 @@ body{
 #item{
     top: 100px;
     right:10px;
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 81, 0);
     
 }
 #item2{
@@ -158,12 +161,7 @@ body{
 
 }
 
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
+
 
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);

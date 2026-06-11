@@ -5,7 +5,7 @@ $("#counter").hide();
 $("#counter2").hide();
 
 // plays title screen music
-
+audioPlayer.play()
 
 document.getElementById("start_button").addEventListener("click", () => {
   document.getElementById("starter").hidden = true;
